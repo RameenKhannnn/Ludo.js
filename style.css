@@ -1,0 +1,27 @@
+#board{
+    width: 400px;
+    height: 400px;
+    margin: 20px auto;
+    border: 2px solid black;
+    position: relative;
+}
+
+.cell{
+    width: 25%;
+    height: 25%;
+    box-sizing: border-box;
+    float: left;
+    position: relative;
+}
+
+.token{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.player1{background-color: red;}
+.player2{background-color: green;}
+.player3{background-color: blue;}
+.player4{background-color: yellow;}
